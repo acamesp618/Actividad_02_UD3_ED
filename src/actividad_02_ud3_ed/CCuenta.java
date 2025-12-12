@@ -6,7 +6,7 @@
 package actividad_02_ud3_ed;
 
 /**
- * Clase que presenta una cuenta bancaria básica con operaciones
+ * Clase que presenta una cuenta bancaria basica con operaciones
  * de consulta de saldo, ingreso y retiro de dinero.
  * 
  * @author Adrian Campos
@@ -20,15 +20,15 @@ public class CCuenta {
     private String cuenta;
     /** Saldo actual de la cuenta */
     private double saldo;
-    /** Tipo de interés aplicable */
-    private double tipoInterés;
+    /** Tipo de interes aplicable */
+    private double tipoInteres;
 
   
     public CCuenta ()
     {
     }
    /**
-    * Constructor con parámetros para crear una nueva cuenta.
+    * Constructor con parametros para crear una nueva cuenta.
     * 
     * @param nom Nombre del titular de la cuenta
     * @param cue
@@ -40,7 +40,7 @@ public class CCuenta {
         nombre =nom;
         cuenta=cue;
         saldo=sal;
-        tipoInterés=tipo;
+        tipoInteres=tipo;
     }
   /**
    * Establece el nombre del titular de la cuenta
@@ -126,12 +126,12 @@ public class CCuenta {
   * Establece el tipo de interes
   * @return Nuevo tipo de interes
   */
-  public double getTipoInterés() {
-    return tipoInterés;
+  public double getTipoInteres() {
+    return tipoInteres;
   }
 
   
-  public void setTipoInterés(double tipoInterés) {
-    this.tipoInterés = tipoInterés;
+  public void setTipoInteres(double tipoInteres) {
+    this.tipoInteres = tipoInteres;
   }
 }
